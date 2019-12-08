@@ -13,8 +13,8 @@
 三、调试过程以及核心代码
 
 五、运行结果
-![image]https://github.com/GuiltyInori/java-/blob/master/1.png
-![image]
-![image]
+![image]（https://github.com/GuiltyInori/java-/blob/master/1.png）
+![image]（https://github.com/GuiltyInori/java-/blob/master/3.png）
+![image]（https://github.com/GuiltyInori/java-/blob/master/2.png）
 六、编程体会
 通过这次实验我基本掌握了字符串String及其方法的使用，此外在对异常处理时，通过网上资料加深了我对利用try catch处理异常的理解。
