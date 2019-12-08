@@ -12,9 +12,9 @@
 4.基于输入/输出编程，支持学生、教师等数据的读写操作。
 
 三、  核心代码
-//登录界面
-public  class firstLogin extends JFrame implements  ActionListener{
-	//定义组件
+                //登录界面
+                  public  class firstLogin extends JFrame implements  ActionListener{
+	          //定义组件
 	JFrame frame=new JFrame();
 	JPanel jp1,jp2,jp3;//面板
 	JLabel jlb1,jlb2;//标签
