@@ -13,9 +13,9 @@
 
 三、  核心代码
 
-                //登录界面
-                public  class firstLogin extends JFrame implements  ActionListener{
-	        //定义组件
+              //登录界面
+              public  class firstLogin extends JFrame implements  ActionListener{
+	      //定义组件
 	        JFrame frame=new JFrame();
                 JPanel jp1,jp2,jp3;//面板
 	        JLabel jlb1,jlb2;//标签
@@ -111,6 +111,27 @@
 					return false;
 				}	
 		     }
+	//读取学生信息，展示在窗口
+
+	public class show_stuall2 {	
+	
+	JTable table = null;
+    	DefaultTableModel model = null;
+	//显示全部学生信息
+   	public show_stuall2() {
+	JFrame jf = new JFrame("显示全部信息(点击表头可以按照升序降序排序)");	   
+	// 创建内容面板
+	JPanel panel = new JPanel();
+	// 表头（列名）
+	Vector tcolumnNames=createColumnNames();
+	 Vector tdata=createTableModelData();	   
+	 // 创建一个默认的表格模型
+	model = new DefaultTableModel(tdata, tcolumnNames);
+	table = new JTable(model);
+       	table.setPreferredScrollableViewportSize(new Dimension(400, 80));
+       	JScrollPane tablePanel = new JScrollPane(table);  				        
+	// 设置表格内容颜色
+	....
 public class Main {
 	 public static void main(String[] args) {
 			new firstLogin();
