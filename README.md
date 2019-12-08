@@ -13,7 +13,7 @@
 三、调试过程以及核心代码
 
 五、运行结果
-![image]
+![image]https://github.com/GuiltyInori/java-/blob/master/1.png
 ![image]
 ![image]
 六、编程体会
