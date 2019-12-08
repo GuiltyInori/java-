@@ -13,6 +13,8 @@
 三、调试过程以及核心代码
 
 五、运行结果
-![image](https://github.com/GuiltyInori/sfs/blob/master/result.png)
+![image]
+![image]
+![image]
 六、编程体会
 通过这次实验我基本掌握了字符串String及其方法的使用，此外在对异常处理时，通过网上资料加深了我对利用try catch处理异常的理解。
