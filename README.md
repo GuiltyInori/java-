@@ -118,15 +118,15 @@ public class Main {
 
 }
 四、运行结果
-![image]（https://github.com/GuiltyInori/java-/blob/master/1.png）
+![image](https://github.com/GuiltyInori/java-/blob/master/1.png)
 
 
-![image]（https://github.com/GuiltyInori/java-/blob/master/3.png）
+![image](https://github.com/GuiltyInori/java-/blob/master/3.png)
 
 
 
 
-![image]（https://github.com/GuiltyInori/java-/blob/master/2.png）
+![image](https://github.com/GuiltyInori/java-/blob/master/2.png)
 
 五、  编程体会
 通过这次实验我复习了GUI窗体的设计程序，在之前的基础上添加了文件保存并读取数据的程序，加深了我对输出流和输入流的理解。此外，因此次实验结合了之前学习的内容，在发现并解决问题的过程中，帮助我锻炼了编程思维，加深了我对java编程的理解。
