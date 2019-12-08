@@ -12,13 +12,14 @@
 4.基于输入/输出编程，支持学生、教师等数据的读写操作。
 
 三、  核心代码
+
                 //登录界面
-                  public  class firstLogin extends JFrame implements  ActionListener{
-	          //定义组件
-	JFrame frame=new JFrame();
-	JPanel jp1,jp2,jp3;//面板
-	JLabel jlb1,jlb2;//标签
-	JButton jb1,jb2;//按钮
+                public  class firstLogin extends JFrame implements  ActionListener{
+	        //定义组件
+	        JFrame frame=new JFrame();
+                JPanel jp1,jp2,jp3;//面板
+	        JLabel jlb1,jlb2;//标签
+	        JButton jb1,jb2;//按钮
 	
 		//创建面板
 		jp1=new JPanel();
@@ -66,8 +67,8 @@
 		});
     //修改，删除，增加某个学生信息
 
-class Modify {
-    ArrayList<teacher> arry=new ArrayList<teacher>();  			
+        class Modify {
+        ArrayList<teacher> arry=new ArrayList<teacher>();  			
 	public Modify()           //读文件，将文件中的学生信息存放在数组列表
 	{
 		this.readfile();
@@ -118,7 +119,13 @@ public class Main {
 }
 四、运行结果
 ![image]（https://github.com/GuiltyInori/java-/blob/master/1.png）
+
+
 ![image]（https://github.com/GuiltyInori/java-/blob/master/3.png）
+
+
+
+
 ![image]（https://github.com/GuiltyInori/java-/blob/master/2.png）
 
 五、  编程体会
